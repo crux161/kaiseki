@@ -1,8 +1,33 @@
-# firmwaretools
+# Kaiseki ("analysis")
 
-A set of scripts and tools for various firmware analysis tasks. 
+So you have a serial log from u-boot you need parsed
+into binary am I right? Well look no further, because your
+dreams have come true -- in rust as well! No.. No, not really.
 
-## Rust Support via Kaiseki (the `parse-uboot-dump.py`-rs)
+That being said, this *does* do the trick so clean up your output,
+and get ready to parse some data!
+
+`
+usage: kaiseki <input> <output>
+`
+
+## Compiling
+
+It's a rust project managed by Cargo -- what more could you ask for??
+
+Install it like this:
+`
+git clone https://github.com/crux161/kaiseki.git
+cd kaiseki
+cargo b --release
+cargo install --path .		# goes to /home/$USER/.cargo/bin most likely
+`
+
+Maybe I'll write a Makefile or some setup script to do this, but for
+now don't be lazy! It's called copy and paste you heathens! :P
+
+
+## Rust Support via Kaiseki
 
 The original python script in this project has been ported to rust.
 At least, I did my best trying to understand and recreate the logic.
