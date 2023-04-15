@@ -7,10 +7,8 @@ dreams have come true -- in rust as well! No.. No, not really.
 That being said, this *does* do the trick so clean up your output,
 and get ready to parse some data!
 
-```bash
-{
+```
 usage: kaiseki <input> <output>
-}
 ```
 
 ## Compiling
@@ -18,13 +16,11 @@ usage: kaiseki <input> <output>
 It's a rust project managed by Cargo -- what more could you ask for??
 
 Install it like this:
-```bash
-{
+```
 git clone https://github.com/crux161/kaiseki.git
 cd kaiseki
 cargo b --release
 cargo install --path .		# goes to /home/$USER/.cargo/bin most likely
-}
 ```
 
 Maybe I'll write a Makefile or some setup script to do this, but for
