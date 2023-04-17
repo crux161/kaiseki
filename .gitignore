@@ -12,3 +12,25 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# .gitignore
+
+# Compiled Go binary
+kaiseki
+
+# Compiled Go binary for Windows
+kaiseki.exe
+
+# Compiled Go binary for macOS
+myprogram-darwin
+
+# Compiled Go binary for Linux
+myprogram-linux
+
+# Other generated build artifacts
+*.o
+*.a
+*.test
+*.prof
+*.out
+*.exe
